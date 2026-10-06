@@ -81,3 +81,4 @@ setup des pipelines:
 pull request avec les pipelines
 ![alt text](image-3.png)
 
+test de casse-test pour verifier si les job fail la pr est bloquer![alt text](image-5.png)
