@@ -66,7 +66,19 @@ docker run --rm -p 8000:8000 taskflow
 <!-- Lab J1 : listez les règles activées sur main, pourquoi chacune, et ajoutez la capture du push refusé -->
 
 À compléter.
-
+ruleset fais on ne peux plus push sur main directement
 ![alt text](image-1.png)
 
+setup de push verified avec ssh
 ![alt text](image.png)
+
+on peut voir que desormais il faut une verification du codeowner.
+![alt text](image-2.png)
+
+setup des pipelines:
+![alt text](image-4.png)
+
+pull request avec les pipelines
+![alt text](image-3.png)
+
+test de casse-test pour verifier si les job fail la pr est bloquer![alt text](image-5.png)
