@@ -99,3 +99,6 @@ on remaque un gain de temps entre les job grace au cache
 
 artefact televersé
 ![alt text](image-10.png)
+
+badge configurer
+![alt text](image-11.png)
