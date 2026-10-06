@@ -69,5 +69,5 @@ docker run --rm -p 8000:8000 taskflow
 
 test pr
 
-test signer
+test signer 2
 test jenny ssh
