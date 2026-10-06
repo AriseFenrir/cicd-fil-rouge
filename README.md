@@ -1,5 +1,7 @@
 # TaskFlow — dépôt fil rouge CI/CD
 
+![CI](https://github.com/AriseFenrir/cicd-fil-rouge/actions/workflows/ci.yml/badge.svg)
+
 TaskFlow est une petite API de gestion de tâches écrite en Python avec FastAPI.
 C'est le projet fil rouge du module CI/CD (Mastère DevOps M1, Sup de Vinci) :
 pendant trois jours, vous allez construire autour d'elle un pipeline complet
@@ -82,3 +84,21 @@ pull request avec les pipelines
 ![alt text](image-3.png)
 
 test de casse-test pour verifier si les job fail la pr est bloquer![alt text](image-5.png)
+
+la pr est bloquer car la rule set attend le job test mais il n'exsite plus sous ce nom
+![alt text](image-6.png)
+
+on remplace test par ci-ok dans la rule set pour que la PR soit débloquée.
+![alt text](image-7.png)
+
+et maintenant la pr est débloquée.
+![alt text](image-8.png)
+
+on remaque un gain de temps entre les job grace au cache
+![alt text](image-9.png)
+
+artefact televersé
+![alt text](image-10.png)
+
+badge configurer
+![alt text](image-11.png)
