@@ -19,7 +19,7 @@ uvicorn app.main:app --reload
 L'API répond sur http://localhost:8000 et sa documentation interactive est sur
 http://localhost:8000/docs.
 
-## Vérifier le code jenny
+## Vérifier le code
 
 ```bash
 pytest           # tests automatiques
