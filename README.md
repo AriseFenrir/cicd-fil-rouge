@@ -61,13 +61,13 @@ docker run --rm -p 8000:8000 taskflow
 
 <!-- Lab J1 : remplacez par les noms du binôme -->
 
-- À compléter
+- Dubois Thomas
+- Jennifer Vernet
 
 ## Gouvernance du dépôt
 
 <!-- Lab J1 : listez les règles activées sur main, pourquoi chacune, et ajoutez la capture du push refusé -->
 
-À compléter.
 ruleset fais on ne peux plus push sur main directement
 ![alt text](image-1.png)
 
